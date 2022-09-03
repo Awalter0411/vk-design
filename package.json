@@ -1,0 +1,29 @@
+{
+  "name": "vk-design",
+  "version": "1.0.4",
+  "description": "a vue3 component library",
+  "main": "./dist/vk-design.mjs",
+  "exports": "./dist/vk-design.mjs",
+  "files": [
+    "./dist/vk-design.mjs",
+    "./dist/vk-design.umd.js"
+  ],
+  "scripts": {
+    "bootstrap": "npm install && vite build",
+    "lint": "npx eslint .eslintrc.js",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "prettier": "2.7.1",
+    "vite": "^3.0.9"
+  },
+  "dependencies": {
+    "vue": "^3.2.38"
+  }
+}
